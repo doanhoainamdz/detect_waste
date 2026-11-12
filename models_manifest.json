@@ -1,0 +1,23 @@
+{
+  "weights": [
+    {
+      "path": "train_yolo/best6.pt",
+      "bytes": 20326853,
+      "sha256": "b754474604078200a0dce2686ab7229215292587821e28389c20b197fd9e5aff"
+    },
+    {
+      "path": "train_cnn/best_convnext_research5.pth",
+      "bytes": 111371607,
+      "sha256": "0493488b5db679f2a682b7fc560699a8db6c8aa8adfdd51e264057457a1cebc3"
+    }
+  ],
+  "class_names": [
+    "battery",
+    "computer mouse",
+    "keyboard",
+    "laptop",
+    "mobile",
+    "pcb",
+    "phone charger"
+  ]
+}

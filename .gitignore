@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+venv/
+env/
+nckh_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Credentials and local editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded datasets and generated inference / training output
+data/
+datasets/
+cnn_dataset/
+outputs/
+runs/
+e_waste_detection/
+Ultralytics/
+*.log
+*.zip
